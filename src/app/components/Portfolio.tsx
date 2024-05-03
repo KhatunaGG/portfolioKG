@@ -47,9 +47,8 @@ const Portfolio = () => {
          variants={variants3}
          initial='initial'
          animate='animate'
-        className='text-transparent bg-clip-text 
-        bg-gradient-to-r from-purple-500 to-cyan-500 text-[20px] font-bold tracking-[2px]'>Latest Works</motion.h1>
-        <div className='container w-full px-[10%] flex flex-row items-center justify-between gap-y-10 flex-wrap'>
+        className='name-span text-transparent font-extrabold text-[25px] uppercase ml-[10px] text-center tracking-[3px]'>Latest Works</motion.h1>
+        <div className='container w-full px-[10%] flex flex-col items-center justify-between gap-y-[50px] flex-wrap md:flex-col lg:flex-row'>
           {data.map((item, i) => (
             <motion.div
               variants={variants}
@@ -60,17 +59,17 @@ const Portfolio = () => {
               className=''>
               <div className="card relative  ">
                 <img src={`/${item.img}`} alt=''
-                  className='object-cover  rounded-lg shadow-lg shadow-[green-600] border border-[green]
-              w-[500px] h-[225px] hover:bg-white hover:opacity-80 hover:transition hover:duration-300 mb-2 hover:scale-95 transition-transform duration-200
+                  className='object-cover  rounded-lg shadow-lg shadow-[green-600] border border-[green] w-[200px] h-[125px] md:w-[500px] md:h-[225px]
+              lg:w-[500px] lg:h-[225px] hover:bg-white hover:opacity-80 hover:transition hover:duration-300 mb-2 hover:scale-95 transition-transform duration-300
               ' />
-                <div className='flex flex-col gap-2'>
-                  <h2 className='text-[#7C5DFA] font-bold text-base'>{item.title}</h2>
-                  <p className='text-[#9c9ca0] text-[13px] w-[500px]'>{item.desc}</p>
+                <div className='flex flex-col gap-2 text-center md:text-left lg:text-left'>
+                  <h2 className='text-[12px] text-[#7C5DFA] font-bold md:text-base lg:text-base'>{item.title}</h2>
+                  <p className='w-[200px] text-[#9c9ca0] text-[13px] md:w-[500px] lg:w-[500px]'>{item.desc}</p>
                   <div className='flex flex-row gap-4'>
-                    <a href='https://github.com/KhatunaGG/rest-countries-api' target='_blank' rel='noopener noreferrer'>
+                    <a href={item.git} target='_blank' rel='noopener noreferrer'>
                       <button className='text-[#7C5DFA] border border-green-600 rounded-[8px] px-6 py-2 hover:scale-95 transition-transform duration-200'>Github</button>
                     </a>
-                    <a href='https://rest-countries-api-omega-henna.vercel.app/' target='_blank' rel='noopener noreferrer'>
+                    <a href={item.live} target='_blank' rel='noopener noreferrer'>
                       <button className='text-[#7C5DFA] border border-green-600 rounded-[8px] px-6 py-2 hover:scale-95 transition-transform duration-200'>Live</button>
                     </a>
                   </div>
@@ -81,9 +80,9 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
-      <footer className='w-full h-[70px] flex items-center 
+      <footer className='w-full h-[90px] flex items-center 
         justify-end  bg-gradient-to-t from-[rebeccapurple] to-[#32194a10] px-[10%] '>
-        <div className='w-full flex flex-row items-center justify-end text-[#9c9ca0] mt-5 text-[10px] '>
+        <div className='w-full flex flex-row items-center justify-end text-[#9c9ca0] text-[10px] '>
           <motion.div
           variants={variants2}
           initial='initial'

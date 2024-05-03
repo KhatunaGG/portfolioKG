@@ -11,6 +11,8 @@ type DataType = {
     title: string;
     img: string;
     desc: string;
+    git: string;
+    live: string;
 }
 
 
@@ -21,7 +23,6 @@ export const GlobalContext = createContext<GlobalContextType | null>(null);
 
 function GlobalContextProvider({ children }: { children: ReactNode }) {
     const [data, setData] = useState<DataType[]>([]);
-
     useEffect(() => {
         setData(items);
     }, []); 
