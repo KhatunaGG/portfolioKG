@@ -19,8 +19,8 @@ const Header = () => {
                     animate='animate'
                     className='text-gray-400 font-base font-bold'>Hello, I am
                         <span className='text-transparent bg-clip-text 
-                    bg-gradient-to-r from-purple-500 to-cyan-500 text-[22px] font-bold tracking-[1px]'> Khatuna</span><span className='mr-[10px]'>.</span>
-                        I am a front-end developer. I enjoy building sites & apps. My focuse is <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[27px] font-bold'>React(Next.js)</span></motion.p>
+                    bg-gradient-to-r from-purple-500 to-green-500 text-[22px] font-bold tracking-[1px]'> Khatuna</span><span className='mr-[10px]'>.</span>
+                        I am a front-end developer. I enjoy building sites & apps. My focuse is <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-green-500 text-[27px] font-bold'>React(Next.js)</span></motion.p>
                 </div>
                 <div className='w-full md:w-[50%] lg:w-[50%] order-1 md:order-none lg:order-none'>
                     <img className='w-[300px] h-[300px] md:w-[380px] md:h-[380px] lg:w-[500px] lg:h-[500px] ' src="/stars/mainIconsdark.svg" alt="" />

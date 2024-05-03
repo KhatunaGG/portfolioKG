@@ -47,7 +47,8 @@ const Portfolio = () => {
          variants={variants3}
          initial='initial'
          animate='animate'
-        className='name-span text-transparent font-extrabold text-[25px] uppercase ml-[10px] text-center tracking-[3px]'>Latest Works</motion.h1>
+        className='name-span text-transparent font-extrabold text-[25px] uppercase ml-[10px] text-center tracking-[3px]'>
+        <span className='span-1'>Latest </span><span className='span-2'>Works</span> </motion.h1>
         <div className='container w-full px-[10%] flex flex-col items-center justify-between gap-y-[50px] flex-wrap md:flex-col lg:flex-row'>
           {data.map((item, i) => (
             <motion.div

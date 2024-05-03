@@ -9,8 +9,12 @@
   box-sizing: border-box;
 }
 
-.name-span {
+.span-1 {
   -webkit-text-stroke: 2px #7C5DFA;
+}
+
+.span-2 {
+  -webkit-text-stroke: 2px green;
 }
 
 body {
