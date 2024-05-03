@@ -6,7 +6,8 @@ const Header = () => {
             <div className='w-full flex flex-row items-center justify-between px-[10%]'>
                 <div className='w-[50%]'>
                     <p className='text-gray-500 font-base font-bold'>Hello, I'm 
-                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[20px] font-bold tracking-[2px]'> Khatuna</span><span className='mr-[10px]'>.</span>
+                    <span className='text-transparent bg-clip-text 
+                    bg-gradient-to-r from-purple-500 to-cyan-500 text-[20px] font-bold tracking-[2px]'> Khatuna</span><span className='mr-[10px]'>.</span>
                     I'm a front-end developer. I enjoy building sites & apps. My focuse is <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[30px] font-bold'>React(Next.js)</span></p>
                 </div>
                 <div className='w-[50%]'>

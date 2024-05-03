@@ -21,7 +21,6 @@ export const GlobalContext = createContext<GlobalContextType | null>(null);
 
 function GlobalContextProvider({ children }: { children: ReactNode }) {
     const [data, setData] = useState<DataType[]>([]);
-    console.log(data)
 
     useEffect(() => {
         setData(items);
