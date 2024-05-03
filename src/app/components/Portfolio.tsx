@@ -67,10 +67,10 @@ const Portfolio = () => {
                   <p className='w-[200px] text-[#9c9ca0] text-[13px] md:w-[500px] lg:w-[500px]'>{item.desc}</p>
                   <div className='flex flex-row gap-4'>
                     <a href={item.git} target='_blank' rel='noopener noreferrer'>
-                      <button className='text-[#7C5DFA] border border-green-600 rounded-[8px] px-6 py-2 hover:scale-95 transition-transform duration-200'>Github</button>
+                      <button className='text-[#7C5DFA] border border-green-600 rounded-[8px] px-6 py-2 hover:scale-95 transition-transform duration-200 text-[13px]'>Github</button>
                     </a>
                     <a href={item.live} target='_blank' rel='noopener noreferrer'>
-                      <button className='text-[#7C5DFA] border border-green-600 rounded-[8px] px-6 py-2 hover:scale-95 transition-transform duration-200'>Live</button>
+                      <button className='text-[#7C5DFA] border border-green-600 rounded-[8px] px-6 py-2 hover:scale-95 transition-transform duration-200 text-[13px]'>Live</button>
                     </a>
                   </div>
 
