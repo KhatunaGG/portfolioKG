@@ -54,7 +54,7 @@ const Portfolio = () => {
       <div className="w-full h-full flex flex-col items-center justify-center py-[50px] gap-10 ">
         <div className="w-full px-[10%]">
           <Link href={"/"}>
-            <div className="text-green-600 font-bold w-full ">Go beck</div>
+            <div className="text-green-600 font-bold w-full ">Go back</div>
           </Link>
         </div>
 
