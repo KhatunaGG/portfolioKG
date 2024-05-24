@@ -11,7 +11,7 @@ const Header = () => {
 
     return (
         <div className='w-full  absolute top-[100px] flex items-cente justify-center md:h-[calc(100vh-35vh)] lg:h-[calc(100vh-25vh)]'>
-            <div className='w-full flex flex-col items-center justify-between px-[10%] lg:flex-row'>
+            <div className='w-full flex flex-col items-center justify-between px-[10%] md:flex-row'>
                 <div className='w-full md:w-[50%] lg:w-[50%] text-center order-2 md:order-none lg:order-none'>
                     <motion.p
                     variants={variants}

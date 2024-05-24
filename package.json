@@ -9,12 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "@tsparticles/all": "^3.3.0",
+    "@tsparticles/engine": "^3.3.0",
+    "@tsparticles/react": "^3.0.0",
+    "animejs": "^3.2.2",
     "framer-motion": "^11.1.7",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^3.4.0",
+    "tsparticles-slim": "^2.12.0"
   },
   "devDependencies": {
+    "@types/animejs": "^3.1.12",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

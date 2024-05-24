@@ -20,7 +20,7 @@ export const items = [
         id: 3,
         title: 'scoot-multi-page-website',
         img: 'assets/project3.png',
-        desc: 'A multi-page website built with react, ts, tw ',
+        desc: 'A multi-page website built with React, Tailwind, Typescript',
         git: 'https://github.com/KhatunaGG/scoot-multi-page-website',
         live: 'https://scoot-multi-page-website-seven.vercel.app/'
     },
@@ -28,7 +28,7 @@ export const items = [
         id: 4,
         title: 'planets-fact-site',
         img: 'assets/project4.png',
-        desc: 'Planets fact site built with React, tailwind, typescript, framer-motion',
+        desc: 'Planets fact site built with React, Tailwind, Typescript, Framer-motion',
         git: 'https://github.com/KhatunaGG/planets-fact-site_react_tw_ts',
         live: 'https://planets-fact-site-react-tw-ts.vercel.app/'
     },
@@ -36,7 +36,7 @@ export const items = [
         id: 5,
         title: 'audiophile-ecommerce-website',
         img: 'assets/project5.png',
-        desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
+        desc: 'A multi-page website built with React, Tailwind, Typescript, Framer-motion',
         git: 'https://github.com/KhatunaGG/audiophile-ecommerce-website_ts_tw_react',
         live: 'https://audiophile-ecommerce-website-ts-tw-react.vercel.app/'
     },
@@ -44,7 +44,7 @@ export const items = [
         id: 6,
         title: 'devjobs-web-app',
         img: 'assets/project6.png',
-        desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
+        desc: 'A multi-page website built with Next.js, Tailwind, Typescript, Framer-motion',
         git: 'https://github.com/KhatunaGG/devjobs-web-app',
         live: 'https://devjobs-web-app-delta.vercel.app/'
     },
