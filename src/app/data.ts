@@ -48,4 +48,12 @@ export const items = [
         git: 'https://github.com/KhatunaGG/devjobs-web-app',
         live: 'https://devjobs-web-app-delta.vercel.app/'
     },
+    {
+        id: 7,
+        title: 'invoice-app',
+        img: 'assets/project7.png',
+        desc: 'A multi-page website built with Next.js, Tailwind, Typescript, Framer-motion',
+        git: 'https://github.com/KhatunaGG/invoice-app',
+        live: 'https://invoice-app-two-tawny.vercel.app//'
+    },
 ];
