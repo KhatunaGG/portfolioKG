@@ -56,4 +56,13 @@ export const items = [
         git: 'https://github.com/KhatunaGG/invoice-app',
         live: 'https://invoice-app-two-tawny.vercel.app//'
     },
+    {
+        id: 8,
+        title: 'organic-shop',
+        img: 'assets/project8.png',
+        desc: 'A multi-page website built with Next.js, Tailwind, Typescript, Framer-motion',
+        git: 'https://github.com/KhatunaGG/organic-shop',
+        live: 'https://organic-shop-5npqayts5-khatunaggs-projects.vercel.app/'
+    },
+
 ];
